@@ -1,0 +1,65 @@
+DOCUMENTAÇÃO duasVEZES attack on PONG :
+
+**************************************************************
+***Biblioteca necessária: sudo apt-get install libsfml-dev ***
+**************************************************************
+_________________________________________________________________________
+Como jogar?
+-duasVEZES attack on PONG é um jogo "Pong" que conta com alguns itens que poderão trazer vantagens para ambos os lados ou para quem pega-los, dependendo do item.
+A lista de itens é a seguinte : 
+
+1)TWICE Coin - Uma moeda benefica para ambos os jogadores, independendo de quem pegar, inspirada na banda que dá nome ao item, ás musicas no jogo e ao trabalho prático 1 de computação gráfica
+  aquele que fizer um gol enquanto o efeito do item estiver ativo, ganhará 1 gol/ponto extra, isto é, é como se o gol estivesse sendo contado duas vezes.
+
+2)AoT Coin - sigla de "Attack on Titan", é um item que fará com que surja uma muralha que impeça a bola de passar por ela para o jogador que pega-la, inspirado no grande mangá e 
+  anime de sucesso de Hajime Isayama, Shingeki no Kyojin (Attack On Titan).
+
+3)Mirro World Coin - Um item que transforma ambos jogadores em espelhos, caso o efeito do item esteja ativado, aquele que não pegou o item não poderá rebater a bola do jogador que pegou o item,
+  toda vez que houver colisão com o jogador que não pegou o item, a bola não será rebatida na direção do outro jogador, e sim será teleportada para o outro jogador, é como se o jogador que não pegou o item
+  se tornasse um "portal de entrada", e o jogador que pegou o item se tornasse um "portal de sáida". Inspirado no poder de uma das várias personagens de One Piece (Brulee) em que seu poder consiste entrar em espelhos
+  e sair em uma outra dimensão (Mirro World), cheia de espelhos na qual ela pode entrar e sair qualquer outro lugar que há um espelho. 
+
+4)Reverse Coin - Um item bastante simples, a bola ao colidir com este item fará com que sua direção seja revertida, voltando de onde foi rebatida.
+
+5)Za Warudo Coin - Um item que faz com que a bola e os jogadores fique em camera lenta enquanto seu efeita está ativo, como se houvesse uma "manipulação temporal" por parte do item. Inspirado no grande mangá
+  e anime de sucesso, JoJo no Kimyo na Boken (JoJo's Bizarre Adventure), em que "Za Warudo" é o poder principal do antagonista da terceira parte/temporada Dio Brando, fazendo o tempo parar e apenas ele conseguir
+  se mover e fazer outras coisas enquanto o tempo está parado.
+
+_________________________________________________________________________
+
+As teclas básicas de movimentação são:
+
+z - Mover jogador 1 p/ cima.        |          o - Mover jogador 2 p/ cima
+w - Mover jogador 1 p/ baixo.       |          l - Mover jogador 2 p/ baixo
+
+Além disso, foram incluidos alguns "cheats" dentro do jogo para facilitar o teste do jogo durante a fase de desenvolvimento:
+
+M (maiusculo) - Ativa o modo autonomo, faz com que o computador "jogue" contra si mesmo;
+1 - Desliga a aleatoriedade de itens e faz com que surja apenas o item 1 (TWICE Coin);
+2 - Desliga a aleatoriedade de itens e faz com que surja apenas o item 2 (AoT Coin);
+3 - Desliga a aleatoriedade de itens e faz com que surja apenas o item 3 (Mirro World Coin);
+4 - Desliga a aleatoriedade de itens e faz com que surja apenas o item 4 (Reverse Coin);
+5 - Desliga a aleatoriedade de itens e faz com que surja apenas o item 5 (Za Warudo Coin);
+0 - Liga a aleatoriedade de itens, caso a mesma tenha sido desligado, fazendo com que o proximo item a surgir seja totalmente aleatorio.
+
+Outros comandos :
+
+p - Pausar o jogo/ Menu de pausa.
+ESC - Sair do jogo.
+_________________________________________________________________________
+
+Músicas/Sons utilizados no jogo:
+1. [8Bit] TWICE -   Knock Knock                                   : https://www.youtube.com/watch?v=-yXl4icHlw8&t (A partir dos 19 segundos) - Música de fundo na tela de jogo principal.
+2. TWICE -          Knock Knock (Show Music Core 20170225)        : https://www.youtube.com/watch?v=Vc5Iijq8h9E - Música de fundo acionada no item "TWICE Coin".
+3. TWICE -          Likey                                         : https://www.youtube.com/watch?v=V2hlQkVJZhE (Apenas o segundo 13 ~14) - Som de efeito na colisão com o item "TWICE Coin".
+4. [8Bit] TWICE -   Cheer Up                                      : https://www.youtube.com/watch?v=33i9oD8uPwE (A partir dos 11 segundos) - Música de fundo na tela de inicio.
+5. TWICE -          Breakthrough (Instrumental)                   : https://www.youtube.com/watch?v=Ef2SCugNPro (A partir dos 2 min 36 segundos) - Música de fundo na tela de créditos.
+6. TWICE -          Fancy                                         : https://www.youtube.com/watch?v=Nm7fS2dmeqg (A partir dos 1 min 42 segundos) - Música de fundo alternativa da tela de créditos (Ativada ao clicar na foto de TWICE).
+7. Linked Horizon - Guren no  yumiya                              : https://www.youtube.com/watch?v=XMXgHfHxKVM&t (Apenas o segundo 56 ~57) - Som de efeito na colisão com o item "AoT Coin".
+8. Linked Horizon - Shinzou wo sasageyo                           : https://www.youtube.com/watch?v=CID-sYQNCew (A partir dos 42 segundos) - Música de fundo acionada no item "AoT Coin".
+9. Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world  : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (Apenas o segundo 51 ~ 52) - Som de colisão com o item "Mirro World Coin".
+10.Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world  : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (De 1 min 03 segundos até 01 min 13 segundos) - Música de fundo acionada no item "Mirro World Coin".
+11. Za Warudo                                                     : https://www.youtube.com/watch?v=VtzvlXL9gXk (De 9 segundos até 14 segundos) - Som de colisão com o item "Za Warudo Coin"
+
+
+Imagem de fundo na tela de jogo principal : https://wallpaperaccess.com/8-bit
