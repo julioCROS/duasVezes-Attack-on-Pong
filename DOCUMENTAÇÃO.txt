@@ -1,7 +1,10 @@
 DOCUMENTAÇÃO duasVEZES attack on PONG :
 
 **************************************************************
-***Biblioteca necessária: sudo apt-get install libsfml-dev ***
+* Bibliotecas necessárias: sudo apt-get install libsfml-dev  *
+****            sudo apt-get install libglew-dev            ** 
+****            sudo apt-get install libsoil-dev           *** 
+***      sudo apt-get install freeglut3 freeglut3-dev       **
 **************************************************************
 _________________________________________________________________________
 Como jogar?
