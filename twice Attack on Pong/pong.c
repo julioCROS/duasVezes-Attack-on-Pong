@@ -1,6 +1,6 @@
 //PARA RODAR O PROGRAMA g++ pong.c -lsfml-audio -lSOIL -lGLEW -lGL -lGLU -lglut -lm
 //Necessário instalar a biblioteca de audio SFML
-//Comando no linux para instalar : sudo apt-get install libsfml-dev
+//Comando no linux para instalar audio SFML: sudo apt-get install libsfml-dev
 
 #include <SFML/Audio.hpp>
 #include <SOIL/SOIL.h>
@@ -3538,43 +3538,43 @@ void inicializarPrograma(){
   glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
   //Atribuição das imagens ás variaveis
-  idTexturaBackground01 = carregaTextura("backgroundTelaJogo.png");
-  idTexturaPlayer1 = carregaTextura("player1.png");
-  idTexturaPlayer2 = carregaTextura("player2.png");
-  idTexturaPlayer1espelho = carregaTextura("playerEspelho.png");
-  idTexturaPlayer2espelho = carregaTextura("playerEspelho.png");
-  idTexturaBola = carregaTextura("bola.png");
-  idTexturaChao = carregaTextura("backgroundChao.png");
-  idTexturaStatusBar = carregaTextura("barraStatus.png");
-  idTexturaJogador1Text = carregaTextura("jogador1texto.png");
-  idTexturaJogador2Text = carregaTextura("jogador2texto.png");
-  idTexturaCoroa = carregaTextura("crown8bits.png");
-  idTexturaToques = carregaTextura("toquesTOTAL.png");
-  idTexturaTwiceCOIN = carregaTextura("twiceCOIN.png");
-  idTexturaTwiceBackground = carregaTextura("backgroundTWICE.png");
-  idTexturaAotCOIN = carregaTextura("asasDaLiberdade.png");
-  idTexturaAotBackground = carregaTextura("backgroundCOLOSSAL.png");
-  idTexturaMuralhaDIR = carregaTextura("muralhaDIR.png");
-  idTexturaMuralhaESQ = carregaTextura("muralhaESQ.png");
-  idTexturaTelaINICIO =carregaTextura("telaINICIO.png");
-  idTexturaNUVEMS = carregaTextura("nuvem.png");
-  idTexturaTelaSair = carregaTextura("telaSAIR.png");
-  idTexturaTelaPausar = carregaTextura("telaPAUSAR.png");
-  idTexturaTelaReset = carregaTextura("telaConfirmarREINICIAR.png");
-  idTexturaSpriteNUMBER = carregaTextura("spriteNUMBER.png");
-  idTexturaMirroWorld = carregaTextura("mirroWORLDfundo.png");
-  idTexturaTelaCreditos = carregaTextura("telaCREDITOS.png");
-  idTexturaReverseCOIN = carregaTextura("reverseCOIN.png");
-  idTexturaMirroCOIN = carregaTextura("mirroCOIN.png");
-  idTexturaZaWarudoCOIN = carregaTextura("zawarudoCOIN.png");
-  idTexturaNUVEMStelaJogo = carregaTextura("nuvemTELAJOGO.png");
-  idTexturaTeclaW = carregaTextura("teclaWpress.png");
-  idTexturaTeclaS = carregaTextura("teclaSpress.png");
-  idTexturaTeclaO = carregaTextura("teclaOpress.png");
-  idTexturaTeclaL = carregaTextura("teclaLpress.png");
-  idTexturaTelaWINp1 = carregaTextura("p1WIN.png");
-  idTexturaTelaWINp2 = carregaTextura("p2Win.png");
-  idTexturaZaWarudoBackground = carregaTextura("ZaWarudoSPRITE.png");
+  idTexturaBackground01 = carregaTextura("img/backgrounds/backgroundTelaJogo.png");
+  idTexturaPlayer1 = carregaTextura("img/hud/player1.png");
+  idTexturaPlayer2 = carregaTextura("img/hud/player2.png");
+  idTexturaPlayer1espelho = carregaTextura("img/hud/playerEspelho.png");
+  idTexturaPlayer2espelho = carregaTextura("img/hud/playerEspelho.png");
+  idTexturaBola = carregaTextura("img/hud/bola.png");
+  idTexturaChao = carregaTextura("img/backgrounds/backgroundChao.png");
+  idTexturaStatusBar = carregaTextura("img/hud/barraStatus.png");
+  idTexturaJogador1Text = carregaTextura("img/hud/jogador1texto.png");
+  idTexturaJogador2Text = carregaTextura("img/hud/jogador2texto.png");
+  idTexturaCoroa = carregaTextura("img/hud/crown8bits.png");
+  idTexturaToques = carregaTextura("img/hud/toquesTOTAL.png");
+  idTexturaTwiceCOIN = carregaTextura("img/power-UP/twiceCOIN.png");
+  idTexturaTwiceBackground = carregaTextura("img/power-UP/backgroundTWICE.png");
+  idTexturaAotCOIN = carregaTextura("img/hud/asasDaLiberdade.png");
+  idTexturaAotBackground = carregaTextura("img/power-UP/backgroundCOLOSSAL.png");
+  idTexturaMuralhaDIR = carregaTextura("img/power-UP/muralhaDIR.png");
+  idTexturaMuralhaESQ = carregaTextura("img/power-UP/muralhaESQ.png");
+  idTexturaTelaINICIO =carregaTextura("img/telas/telaINICIO.png");
+  idTexturaNUVEMS = carregaTextura("img/backgrounds/nuvem.png");
+  idTexturaTelaSair = carregaTextura("img/telas/telaSAIR.png");
+  idTexturaTelaPausar = carregaTextura("img/telas/telaPAUSAR.png");
+  idTexturaTelaReset = carregaTextura("img/telas/telaConfirmarREINICIAR.png");
+  idTexturaSpriteNUMBER = carregaTextura("img/hud/spriteNUMBER.png");
+  idTexturaMirroWorld = carregaTextura("img/power-UP/mirroWORLDfundo.png");
+  idTexturaTelaCreditos = carregaTextura("img/telas/telaCREDITOS.png");
+  idTexturaReverseCOIN = carregaTextura("img/power-UP/reverseCOIN.png");
+  idTexturaMirroCOIN = carregaTextura("img/power-UP/mirroCOIN.png");
+  idTexturaZaWarudoCOIN = carregaTextura("img/power-UP/zawarudoCOIN.png");
+  idTexturaNUVEMStelaJogo = carregaTextura("img/backgrounds/nuvemTELAJOGO.png");
+  idTexturaTeclaW = carregaTextura("img/hud/teclaWpress.png");
+  idTexturaTeclaS = carregaTextura("img/hud/teclaSpress.png");
+  idTexturaTeclaO = carregaTextura("img/hud/teclaOpress.png");
+  idTexturaTeclaL = carregaTextura("img/hud/teclaLpress.png");
+  idTexturaTelaWINp1 = carregaTextura("img/telas/p1WIN.png");
+  idTexturaTelaWINp2 = carregaTextura("img/telas/p2Win.png");
+  idTexturaZaWarudoBackground = carregaTextura("img/power-UP/ZaWarudoSPRITE.png");
   chuteInicial();
 }
 
@@ -3634,55 +3634,55 @@ void atualizaCena(int num){
 
 int main(int argc, char** argv){
   //Carregamento das musicas/sons utilizados no jogo, caso haja erro para abrir o arquivo, uma mensagem é mostrada
-  if(!background_music.openFromFile("knock8Bits.ogg"))
+  if(!background_music.openFromFile("sounds/knock8Bits.ogg"))
   printf("\n ERRO AO CARREGAR Knock8Bits.ogg");
 
-  if(!background_musicORIGINAL.openFromFile("knockORIGINAL.ogg"))
+  if(!background_musicORIGINAL.openFromFile("sounds/knockORIGINAL.ogg"))
   printf("\n ERRO AO CARREGAR knockORIGINAL.ogg");
 
-  if(!colisaoCimaBaixo.openFromFile("colisaoCimaBaixo.ogg"))
+  if(!colisaoCimaBaixo.openFromFile("sounds/colisaoCimaBaixo.ogg"))
   printf("\n ERRO AO CARREGAR colisaoCimaBaixo.ogg");
 
-  if(!colisaoPlayer1.openFromFile("colisaoPlayer1.ogg"))
+  if(!colisaoPlayer1.openFromFile("sounds/colisaoPlayer1.ogg"))
   printf("\n ERRO AO CARREGAR colisaoPlayer1.ogg");
 
-  if(!colisaoPlayer2.openFromFile("colisaoPlayer2.ogg"))
+  if(!colisaoPlayer2.openFromFile("sounds/colisaoPlayer2.ogg"))
   printf("\n ERRO AO CARREGAR colisaoPlayer2.ogg");
 
-  if(!goal.openFromFile("gol.ogg"))
+  if(!goal.openFromFile("sounds/gol.ogg"))
   printf("\n ERRO AO CARREGAR gol.ogg");
 
-  if(!twiceCOINcollect.openFromFile("twicecoinCOLLECT.ogg"))
+  if(!twiceCOINcollect.openFromFile("sounds/twicecoinCOLLECT.ogg"))
   printf("\n ERRO AO CARREGAR twiceCOINcollect.ogg");
 
-  if(!sasageyo.openFromFile("sasageyo.ogg"))
+  if(!sasageyo.openFromFile("sounds/sasageyo.ogg"))
   printf("\n ERRO AO CARREGAR sasageyo.ogg");
 
-  if(!aotCOINcollect.openFromFile("Jeager.ogg"))
+  if(!aotCOINcollect.openFromFile("sounds/Jeager.ogg"))
   printf("\n ERRO AO CARREGAR aotCOINcollect.ogg");
 
-  if(!cheerUP.openFromFile("cheerUP.ogg"))
+  if(!cheerUP.openFromFile("sounds/cheerUP.ogg"))
   printf("\n ERRO AO CARREGAR cheerUP.ogg");
 
-  if(!mouseCLICK.openFromFile("mouseCLICK.ogg"))
+  if(!mouseCLICK.openFromFile("sounds/mouseCLICK.ogg"))
   printf("\n ERRO AO CARREGAR mouseCLICK.ogg");
 
-  if(!breakthrough.openFromFile("breakthrough.ogg"))
+  if(!breakthrough.openFromFile("sounds/breakthrough.ogg"))
   printf("\n ERRO AO CARREGAR breakthrough.ogg");
 
-  if(!espelhoCOINcollect.openFromFile("mirroWorldCollect.ogg"))
+  if(!espelhoCOINcollect.openFromFile("sounds/mirroWorldCollect.ogg"))
   printf("\n ERRO AO CARREGAR mirroWorldCollect.ogg");
 
-  if(!mirroWorldSOM.openFromFile("mirroWorldSOMbg.ogg"))
+  if(!mirroWorldSOM.openFromFile("sounds/mirroWorldSOMbg.ogg"))
   printf("\n ERRO AO CARREGAR mirroWorldSOMbg.ogg");
 
-  if(!reverseCOINcollect.openFromFile("reverseCOINsound.ogg"))
+  if(!reverseCOINcollect.openFromFile("sounds/reverseCOINsound.ogg"))
   printf("\n ERRO AO CARREGAR reverseCOINsound.ogg");
 
-  if(!fancyU.openFromFile("fancyU.ogg"))
+  if(!fancyU.openFromFile("sounds/fancyU.ogg"))
   printf("\n ERRO AO CARREGAR fancyU.ogg");
 
-  if(!zawarudoCOINcollect.openFromFile("zawarudoCOINcollect.ogg"))
+  if(!zawarudoCOINcollect.openFromFile("sounds/zawarudoCOINcollect.ogg"))
   printf("\n ERRO AO CARREGAR zawarudoCOINcollect.ogg");
 
 
