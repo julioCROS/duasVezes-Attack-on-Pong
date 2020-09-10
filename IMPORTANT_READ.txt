@@ -1,10 +1,15 @@
-DOCUMENTAÇÃO duasVEZES attack on PONG :
+DOCUMENTATION duasVEZES attack on PONG :
 
 **************************************************************
-***Biblioteca necessária: sudo apt-get install libsfml-dev ***
+* Bibliotecas necessárias: sudo apt-get install libsfml-dev  *
+****            sudo apt-get install libglew-dev            ** 
+****            sudo apt-get install libsoil-dev           *** 
+***      sudo apt-get install freeglut3 freeglut3-dev       **
 **************************************************************
-_________________________________________________________________________
-Como jogar?
+______________________________________________________________
+
+How to play?
+
 -duasVEZES attack on PONG é um jogo "Pong" que conta com alguns itens que poderão trazer vantagens para ambos os lados ou para quem pega-los, dependendo do item.
 A lista de itens é a seguinte : 
 
