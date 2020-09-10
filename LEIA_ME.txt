@@ -8,7 +8,7 @@ DOCUMENTATION duasVEZES attack on PONG :
 **************************************************************
 ______________________________________________________________
 
-How to play?
+Como jogar?
 
 -duasVEZES attack on PONG é um jogo "Pong" que conta com alguns itens que poderão trazer vantagens para ambos os lados ou para quem pega-los, dependendo do item.
 A lista de itens é a seguinte : 
