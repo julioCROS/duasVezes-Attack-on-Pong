@@ -37,11 +37,14 @@ Project base: https://github.com/fegemo/cefet-cg/blob/master/assignments/tp1-pin
 
 The basic movement keys are:
 
-z - Move player 1 up.   | o - Move player 2 up </br>
-w - Move player 1 down. | l - Move player 2 down </br>
+<pre>
+z -(Z) Move player 1 up.   | o (O) - Move player 2 up </br>
+w -(W) Move player 1 down. | l (L) - Move player 2 down </br>
+</pre>
 
 In addition, some "cheats" have been included within the game to facilitate testing the game during the development phase: </br>
 
+<pre>
 M (**UPPERCASE**) - Activates autonomous mode, makes the computer "play" against itself; </br>
 1 - Turn off item randomness and only item 1 (TWICE Coin) appears; </br>
 2 - Turn off random items and only item 2 (AoT Coin) appears; </br>
@@ -49,11 +52,14 @@ M (**UPPERCASE**) - Activates autonomous mode, makes the computer "play" against
 4 - Turn off item randomness and cause only item 4 (Reverse Coin) to appear; </br>
 5 - Turn off item randomness and cause only item 5 to appear (Za Warudo Coin); </br>
 0 - Turn on item randomness, if it has been turned off, making the next item to appear to be completely random. </br>
+</pre>
 
 Other commands: </br>
 
-p - Pause the game / Pause menu.
-ESC - Exit the game.
+<pre>
+p - Pause the game / Pause menu.  </br>
+ESC - Exit the game.  </br>
+</pre>
 
 </p>
 </details>
