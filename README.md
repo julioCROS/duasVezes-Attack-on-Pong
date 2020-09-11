@@ -77,7 +77,7 @@ ESC - Exit the game.  </br>
 7. Linked Horizon - Guren no  yumiya                              : https://www.youtube.com/watch?v=XMXgHfHxKVM&t (Just the second 56 ~57) - Sound effect in collision with the item "AoT Coin".
 8. Linked Horizon - Shinzou wo sasageyo                           : https://www.youtube.com/watch?v=CID-sYQNCew (From 42 seconds) - Background music triggered in the item "AoT Coin".
 9. Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world  : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (Just the seconds 51 ~ 52) - Collision sound with the item "Mirro World Coin".
-10. Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (From 1 min 03 seconds up to 01 min 13 seconds) - Background music triggered in the item "Mirro World Coin".
+10.Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world  : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (From 1 min 03 seconds up to 01 min 13 seconds) - Background music triggered in the item "Mirro World Coin".
 11. Za Warudo                                                     : https://www.youtube.com/watch?v=VtzvlXL9gXk (From 9 seconds up to 14 seconds) - Collision sound with "Za Warudo Coin"
 </pre>
 
