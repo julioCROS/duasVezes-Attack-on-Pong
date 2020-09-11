@@ -64,4 +64,24 @@ ESC - Exit the game.  </br>
 </p>
 </details>
 
+<details><summary>Music and sounds utilized</summary>
+<p>
+  
+<pre>
+1. [8Bit] TWICE -   Knock Knock                                   : https://www.youtube.com/watch?v=-yXl4icHlw8&t (From 19 seconds) - Background music on the main game screen.
+2. TWICE -          Knock Knock (Show Music Core 20170225)        : https://www.youtube.com/watch?v=Vc5Iijq8h9E - Background music triggered in the item "TWICE Coin".
+3. TWICE -          Likey                                         : https://www.youtube.com/watch?v=V2hlQkVJZhE (Just the second 13 ~14) - Sound effect in collision with the item "TWICE Coin".
+4. [8Bit] TWICE -   Cheer Up                                      : https://www.youtube.com/watch?v=33i9oD8uPwE (From 11 seconds) - Background music on the home screen.
+5. TWICE -          Breakthrough (Instrumental)                   : https://www.youtube.com/watch?v=Ef2SCugNPro (From 2 min 36 seconds) - Background music on the credits screen.
+6. TWICE -          Fancy                                         : https://www.youtube.com/watch?v=Nm7fS2dmeqg (From 1 min 42 seconds) - Alternative background music from the credits screen (Activated by clicking on the TWICE photo).
+7. Linked Horizon - Guren no  yumiya                              : https://www.youtube.com/watch?v=XMXgHfHxKVM&t (Just the second 56 ~57) - Sound effect in collision with the item "AoT Coin".
+8. Linked Horizon - Shinzou wo sasageyo                           : https://www.youtube.com/watch?v=CID-sYQNCew (From 42 seconds) - Background music triggered in the item "AoT Coin".
+9. Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world  : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (Just the seconds 51 ~ 52) - Collision sound with the item "Mirro World Coin".
+10. Ep. 850 Luffy vs Katakuri - Luffy enters in the mirrors world : https://www.youtube.com/watch?v=AkXBl_ghcM8&t (From 1 min 03 seconds up to 01 min 13 seconds) - Background music triggered in the item "Mirro World Coin".
+11. Za Warudo                                                     : https://www.youtube.com/watch?v=VtzvlXL9gXk (From 9 seconds up to 14 seconds) - Collision sound with "Za Warudo Coin"
+</pre>
+
+</p>
+</details>
+
 
