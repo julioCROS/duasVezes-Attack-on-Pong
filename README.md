@@ -1,5 +1,11 @@
 # duasVezes Attack on Pong | **트와이스 아딱 온 퐁**
 
+<p align="center">
+ <img width="900" height="300" src="https://i.ibb.co/nk0SXdd/telaGIT.png">
+</p>
+
+
+
 Computer graphics discipline project. A small game based on the iconic Pong made in C language with some extras things that I like.
 Project base: https://github.com/fegemo/cefet-cg/blob/master/assignments/tp1-ping-phong/README.md
 
