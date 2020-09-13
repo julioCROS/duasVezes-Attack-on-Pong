@@ -91,3 +91,12 @@ ESC - Exit the game.  </br>
 </details>
 
 
+</br>
+</br>
+</br>
+<p align="center">
+ <img width="850" height="320" src="https://i.ibb.co/dBh2GSS/creditos-GIT.png">
+</p>
+
+
+
