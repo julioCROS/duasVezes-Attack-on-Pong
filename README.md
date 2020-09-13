@@ -23,9 +23,22 @@ Project base: https://github.com/fegemo/cefet-cg/blob/master/assignments/tp1-pin
 
 <details><summary>Items</summary>
 <p>
+ 
+
 
 #### duasVezes attack on Pong is "Pong" game that has some items that bring advantages to both sides or whoever catches them, depending on the item.
+
+ <p align="center">
+  <img src="twice_Attack_on_Pong/img/power-UP/twiceCOIN.png" width="60" />
+  <img src="twice_Attack_on_Pong/img/power-UP/asasDaLiberdade.png" width="60" />
+  <img src="twice_Attack_on_Pong/img/power-UP/mirroCOIN.png" width="60" />
+  <img src="twice_Attack_on_Pong/img/power-UP/reverseCOIN.png" width="60" />
+  <img src="twice_Attack_on_Pong/img/power-UP/zawarudoCOIN.png" width="60" />
+</p>
+
 **1) TWICE Coin** - A beneficial coin for both players, regardless of who picks it, inspired by the group that gives the item its name, such as in-game music and the practical work 1 of computer graphics, the one who scores a goal while the effect of the item is active, earns 1 extra goal, that is, its as if the goal is being counted **twice** times.
+
+
 
 **2) AoT Coin** - acronym for "Attack on Titan", is an item that will cause a wall to appear that prevents the ball from passing through it to the player who catches it, inspired by the great manga and hit anime by Hajime Isayama, Shingeki no Kyojin (Attack On Titan).
 
