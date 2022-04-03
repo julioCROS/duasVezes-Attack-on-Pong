@@ -84,7 +84,7 @@ int YtamITEM = 130;
 int frame = 0; //Atualização na contagem de frame utilizada para geração de items aleatorios em momentos aleatorios do jogo
 int frameAleatorio = 0; //Frame para definir em que momento será gerado um novo item
 int frameZaWarudo = 0; //Frame para troca de cenário a partir do sprite "ZaWarudoSPRITE"
-int atraso = 100; //Frame de atraso na ativação do item "Za Warudo Coin"
+int atraso = 20; //Frame de atraso na ativação do item "Za Warudo Coin"
 int frameTECLAS = 0; //Frame para troca de imagem dos sprites de teclas, uma animação simples mostrando as teclas de controle dos jogadores quando o jogo é iniciado
 
 //Variaveis para posição de inicio de desenho dos itens
@@ -120,13 +120,13 @@ int tamanhoJOGADOR_Y = 350;
 #define tamanhoMUNDO_Y 1000
 
 //Define o aumento de velocidade da Bola nos eixos X e Y ao colidor com uma das barras dos jogadores
-#define aumentoVEL_COLISAO 0.00006
+#define aumentoVEL_COLISAO 21
 
 //Define a velocidade inicial da Bola nos eixos X e Y
-#define velocidadeBOLAi_X 0.0002
-#define velocidadeBOLAi_Y 0.0009
-#define incrementoVEL_XINICIAL 0.0002
-#define incrementoVEL_YINICIAL 0.0009
+#define velocidadeBOLAi_X 9
+#define velocidadeBOLAi_Y 38
+#define incrementoVEL_XINICIAL 12
+#define incrementoVEL_YINICIAL 56
 
 //Variavel para armazenar toques totais no jogo
 int toquesTotal = 0;
@@ -1910,7 +1910,7 @@ void desenhaITEM(GLuint idTexturaITEM){
 //Funcao utilizada para resetar o jogo
 void resetar(){
   xBola = 0;
-  yBola = 0;
+  yBola = 200;
   yJogador1 = 0;
   yJogador2 = 0;
   placar1 = 0;
@@ -2735,27 +2735,27 @@ void desenha(){
         desenhaITEM(idTexturaZaWarudoCOIN);
         if(colisaoITEM == 1){
           //Animação de background ao colidir com o item 5 - "Za Warudo Coin"
-          if(frameZaWarudo > atraso+40)
+          if(frameZaWarudo > atraso+36)
           backgroundZaWarudo(10*0.090909090);
-          if((frameZaWarudo > atraso+36) && (frameZaWarudo <= atraso+40))
+          if((frameZaWarudo > atraso+28) && (frameZaWarudo <= atraso+36))
           backgroundZaWarudo(9*0.090909090);
-          if((frameZaWarudo > atraso+32) && (frameZaWarudo <= atraso+36))
+          if((frameZaWarudo > atraso+24) && (frameZaWarudo <= atraso+32))
           backgroundZaWarudo(8*0.090909090);
-          if((frameZaWarudo > atraso+28) && (frameZaWarudo <= atraso+32))
+          if((frameZaWarudo > atraso+20) && (frameZaWarudo <= atraso+28))
           backgroundZaWarudo(7*0.090909090);
-          if((frameZaWarudo > atraso+24) && (frameZaWarudo <= atraso+28))
+          if((frameZaWarudo > atraso+24) && (frameZaWarudo <= atraso+24))
           backgroundZaWarudo(6*0.090909090);
-          if((frameZaWarudo > atraso+20) && (frameZaWarudo <= atraso+24))
-          backgroundZaWarudo(5*0.090909090);
           if((frameZaWarudo > atraso+16) && (frameZaWarudo <= atraso+20))
-          backgroundZaWarudo(4*0.090909090);
+          backgroundZaWarudo(5*0.090909090);
           if((frameZaWarudo > atraso+12) && (frameZaWarudo <= atraso+16))
-          backgroundZaWarudo(3*0.090909090);
+          backgroundZaWarudo(4*0.090909090);
           if((frameZaWarudo > atraso+8) && (frameZaWarudo <= atraso+12))
-          backgroundZaWarudo(2*0.090909090);
+          backgroundZaWarudo(3*0.090909090);
           if((frameZaWarudo > atraso+4) && (frameZaWarudo <= atraso+8))
+          backgroundZaWarudo(2*0.090909090);
+          if((frameZaWarudo > atraso+2) && (frameZaWarudo <= atraso+4))
           backgroundZaWarudo(0.090909090);
-          if((frameZaWarudo > atraso + 0) && (frameZaWarudo <= atraso + 4))
+          if((frameZaWarudo > atraso + 0) && (frameZaWarudo <= atraso + 2))
           backgroundZaWarudo(0);
         }
       }
@@ -3041,9 +3041,9 @@ void outrosChutes(){
   }
 
   //Lógica utilizada para deixar a bola e os jogadores em "camera lenta" quando o efeito do item 5 - "Za Warudo Coin" é ativado
-  if(frameZaWarudo >= 125){
-    velocidaEixoX= 0.00006;
-    velocidaEixoY= 0.0001;
+  if(frameZaWarudo >= 25){
+    velocidaEixoX= 4;
+    velocidaEixoY= 11;
     velocidadeJogador = 20;
   }
 
@@ -3104,14 +3104,14 @@ void outrosChutes(){
   }
 
   //Lógica limitante do efeito do item 5
-  if(frameZaWarudo > 444){
+  if(frameZaWarudo > 222){
     colisaoITEM = 0;
     itemGERADO = 0;
-    velocidaEixoX= velocidadeBOLAi_X + 0.0002;
-    velocidaEixoY= velocidadeBOLAi_Y + 0.0005;
+    velocidaEixoX= velocidadeBOLAi_X + 21;
+    velocidaEixoY= velocidadeBOLAi_Y + 49;
     zawarudoCOINcollect.stop();
     frameZaWarudo = 0;
-    velocidadeJogador = 60;
+    velocidadeJogador = 70;
   }
 }
 
@@ -3552,7 +3552,7 @@ void inicializarPrograma(){
   idTexturaToques = carregaTextura("img/hud/toquesTOTAL.png");
   idTexturaTwiceCOIN = carregaTextura("img/power-UP/twiceCOIN.png");
   idTexturaTwiceBackground = carregaTextura("img/power-UP/backgroundTWICE.png");
-  idTexturaAotCOIN = carregaTextura("img/hud/asasDaLiberdade.png");
+  idTexturaAotCOIN = carregaTextura("img/power-UP/asasDaLiberdade.png");
   idTexturaAotBackground = carregaTextura("img/power-UP/backgroundCOLOSSAL.png");
   idTexturaMuralhaDIR = carregaTextura("img/power-UP/muralhaDIR.png");
   idTexturaMuralhaESQ = carregaTextura("img/power-UP/muralhaESQ.png");
